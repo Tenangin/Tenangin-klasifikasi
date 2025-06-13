@@ -14,6 +14,7 @@ Proyek ini mengembangkan sistem klasifikasi gangguan mental menggunakan teknik N
   - [Model TensorFlow/Keras](#model-tensorflowkeras)
   - [Model TensorFlow dengan 14 Fitur Teratas](#model-tensorflow-dengan-14-fitur-teratas)
 - [Cara Menggunakan (Pengaturan Lokal)](#cara-menggunakan-pengaturan-lokal)
+- [Inferensi](#Inferensi)
 
 ## Gambaran Umum Proyek
 
@@ -131,6 +132,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
     * Jalankan setiap sel di dalam notebook untuk melihat langkah-langkah pra-pemrosesan, pelatihan model, dan evaluasi.
     * Anda mungkin perlu membuat file CSV data input (`data.csv` atau nama serupa) yang berisi kolom `text` dan `label` jika belum ada, berdasarkan format yang diharapkan oleh notebook.
 
-
+## Inferensi 
+hasil deploy model di hugging face bisa di coba pada link berikut https://formklasifikasi.netlify.app/ atau pada struktur folder ada inferensi yang sudah menggunkan html, bisa diunduh dan run dilokal host
 
 * note perhatikan lagi strukur folder nya
